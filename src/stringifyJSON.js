@@ -34,3 +34,7 @@ var stringifyJSON = function(obj) {
   return '{' + stringArray.join(',') + '}'; 
  }
 };
+
+//console.log(stringifyJSON([true])); 
+
+// '[h,e,l,l,o]'
